@@ -15,12 +15,10 @@ class Pokemon {
   
   var name: String {
     
-    
     return _name
   }
   
   var pokedexID: Int! {
-    
     
     return _pokedexID
   }
