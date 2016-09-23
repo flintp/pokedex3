@@ -15,6 +15,7 @@
 		F34B7E1F1D9442C00009520D /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = F34B7E1E1D9442C00009520D /* pokemon.csv */; };
 		F34B7E221D9448240009520D /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34B7E211D9448240009520D /* Pokemon.swift */; };
 		F34B7E251D9450260009520D /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34B7E241D9450260009520D /* PokeCell.swift */; };
+		F3D8E1F41D95468800F0C5A6 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D8E1F31D95468800F0C5A6 /* csv.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F34B7E1E1D9442C00009520D /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		F34B7E211D9448240009520D /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		F34B7E241D9450260009520D /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
+		F3D8E1F31D95468800F0C5A6 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				F34B7E151D943BCD0009520D /* LaunchScreen.storyboard */,
 				F34B7E1E1D9442C00009520D /* pokemon.csv */,
 				F34B7E181D943BCD0009520D /* Info.plist */,
+				F3D8E1F31D95468800F0C5A6 /* csv.swift */,
 			);
 			path = Pokedex3;
 			sourceTree = "<group>";
@@ -122,6 +125,7 @@
 					F34B7E081D943BCD0009520D = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 6P353L5CUQ;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -167,6 +171,7 @@
 				F34B7E0F1D943BCD0009520D /* ViewController.swift in Sources */,
 				F34B7E0D1D943BCD0009520D /* AppDelegate.swift in Sources */,
 				F34B7E221D9448240009520D /* Pokemon.swift in Sources */,
+				F3D8E1F41D95468800F0C5A6 /* csv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +335,7 @@
 				F34B7E1D1D943BCD0009520D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
