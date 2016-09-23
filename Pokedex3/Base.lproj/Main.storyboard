@@ -56,11 +56,11 @@
                                     <constraint firstAttribute="trailing" secondItem="tdM-BC-t4a" secondAttribute="trailing" constant="8" id="ukt-aW-IHv"/>
                                 </constraints>
                             </view>
-                            <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="nUA-rg-PhE">
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Search Pokedex" translatesAutoresizingMaskIntoConstraints="NO" id="nUA-rg-PhE">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Spu-oc-I8z"/>
                                 </constraints>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </searchBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="kD3-tU-lTZ"/>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="jsg-HV-zBm">
@@ -130,6 +130,7 @@
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="jsg-HV-zBm" id="nsG-Md-Qdc"/>
+                        <outlet property="searchBar" destination="nUA-rg-PhE" id="HPG-VK-46x"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
